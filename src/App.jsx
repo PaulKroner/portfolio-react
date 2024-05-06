@@ -5,6 +5,7 @@ import Skills from "./components/skills/skills";
 import Welcome from './components/welcome/welcome';
 import Questions from './components/questions/questions';
 import Footer from './components/footer/footer';
+import NavigationBar from "./components/navigationbar/navigationbar";
 
 const App = () => {
 
@@ -36,7 +37,7 @@ const App = () => {
         <div className="middle-container">
 
           <div className="left-container">
-            sidebar
+            <NavigationBar />
           </div>
 
           <div className="mid-container">

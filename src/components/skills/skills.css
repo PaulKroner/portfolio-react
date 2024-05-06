@@ -40,3 +40,15 @@
 .progress {
     height: 30px;
 }
+
+/* mobile */
+
+@media only screen and (max-width: 800px) {
+    .skill-table {
+        font-size: 2rem !important;
+    }
+
+    th {
+        font-size: 2.5rem !important;
+    }
+}

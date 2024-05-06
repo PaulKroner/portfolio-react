@@ -1,0 +1,60 @@
+.cv {
+    color: var(--text-color);
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.cv-card {
+    background-color: var(--cv-background);
+    color: var(--text-color);
+    height: auto;
+    max-width: 600px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    padding: 15px;
+    margin-top: 2rem;
+}
+
+.cv-headline {
+    color: var(--primary-color);
+    font-size: var(--cv-headline);
+    white-space: wrap;
+}
+
+.cv-text {
+    font-size: var(--normal-text);
+    white-space: wrap;
+}
+
+.cvList {
+    list-style-type: circle;
+    margin-top: 25px;
+    color: var(--text-color);
+}
+
+.cv {
+    margin-top: 10px;
+    color: var(--text-color);
+}
+
+/* mobile */
+
+@media only screen and (max-width: 800px) {
+    .cv {
+        gap: 4rem;
+    }
+
+    .cv-card {
+        max-width: 90%;
+        padding: 1rem;
+    }
+
+    .cv-headline {
+        font-size: 4rem !important;
+        /* word-break: break-word; */
+    }
+
+    .cv-text {
+        font-size: 2.5rem;
+    }
+}

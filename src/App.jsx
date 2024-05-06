@@ -7,8 +7,25 @@ function App() {
       <div className="center" id="page-loader-center">
         <div className="loader" id="page-loader"></div>
       </div>
+
       <div className="main-container" id="main-container">
-        <Welcome />
+
+        <div className="middle-container">
+
+          <div className="left-container">
+            sidebar
+          </div>
+
+          <div className="mid-container">
+            <Welcome />
+          </div>
+
+          <div className="lower">
+            
+          </div>
+
+        </div>
+
       </div>
     </>
 

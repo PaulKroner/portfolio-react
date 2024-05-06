@@ -2,9 +2,9 @@ import "./footer.css"
 
 const Footer = () => {
     return (
-        <footer class="container-fluid">
+        <footer className="container-fluid">
 
-            <div class="footer-text">
+            <div className="footer-text">
                 Diese Webseite wurde in React.js und Bootstrap erstellt.
             </div>
 

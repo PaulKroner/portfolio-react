@@ -55,6 +55,7 @@
     background-color: var(--body-color);
     margin: 2em 2em;
     max-width: 20rem !important;
+    object-fit: cover;
 }
 
 .rounded {

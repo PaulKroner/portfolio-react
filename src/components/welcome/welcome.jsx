@@ -18,7 +18,7 @@ const Welcome = () => {
 
                 </div>
 
-                <div className="picture-field">
+                <div className="picture-field d-flex justify-content-center align-items-center">
                     <img className="rounded img-fluid picture-mobile" src={profil_picture} alt="profilpicture" />
                 </div>
             </div>

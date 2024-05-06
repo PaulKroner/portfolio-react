@@ -3,28 +3,28 @@ import "./questions.css";
 const Questions = () => {
     return (
         <>
-            <div class="container-fluid d-flex flex-column">
-                <p class="question-heading">Warum sollten Sie mich in Betracht ziehen?</p>
-                <div class="question-list">
-                    <ul class="dropdown-list">
-                        <li class="dropend dp-desktop">
-                            <button class="btn dropdown-toggle dropdown-button" type="button" id="neueErfahrung"
+            <div className="container-fluid d-flex flex-column">
+                <p className="question-heading">Warum sollten Sie mich in Betracht ziehen?</p>
+                <div className="question-list">
+                    <ul className="dropdown-list">
+                        <li className="dropend dp-desktop">
+                            <button className="btn dropdown-toggle dropdown-button" type="button" id="neueErfahrung"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 neue Erfahrungen sammeln
                             </button>
-                            <div class="dropdown-menu dropdown-text" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">
+                            <div className="dropdown-menu dropdown-text" aria-labelledby="dropdownMenuButton">
+                                <a className="dropdown-item" href="#">
                                     Ich bin stets offen, neue Software, Frameworks und Aufgaben kennenzulernen.
                                 </a>
                             </div>
                         </li>
-                        <li class="dropend dp-desktop">
-                            <button class="btn dropdown-toggle dropdown-button" type="button" id="werte"
+                        <li className="dropend dp-desktop">
+                            <button className="btn dropdown-toggle dropdown-button" type="button" id="werte"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 wichtige Werte
                             </button>
-                            <div class="dropdown-menu dropdown-text" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">
+                            <div className="dropdown-menu dropdown-text" aria-labelledby="dropdownMenuButton">
+                                <a className="dropdown-item" href="#">
                                     Für mich ist ein respektvoller Umgang und Kommunikation auf Augenhöhe von
                                     herausragender Bedeutung.
                                     Die Einhaltung von Terminen und die pünktliche Anwesenheit bei der Arbeit
@@ -34,13 +34,13 @@ const Questions = () => {
                                 </a>
                             </div>
                         </li>
-                        <li class="dropend dp-desktop">
-                            <button class="btn dropdown-toggle dropdown-button" type="button" id="wertvoll"
+                        <li className="dropend dp-desktop">
+                            <button className="btn dropdown-toggle dropdown-button" type="button" id="wertvoll"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 wertvolles Teammitglied
                             </button>
-                            <div class="dropdown-menu dropdown-text" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">
+                            <div className="dropdown-menu dropdown-text" aria-labelledby="dropdownMenuButton">
+                                <a className="dropdown-item" href="#">
                                     Ich bin ein wertvolles Teammitglied, da ich mich gut in neue Gruppen
                                     integriere
                                     und schnell Anschluss finde.
@@ -49,13 +49,13 @@ const Questions = () => {
                                 </a>
                             </div>
                         </li>
-                        <li class="dropend dp-desktop">
-                            <button class="btn dropdown-toggle dropdown-button" type="button" id="überblick"
+                        <li className="dropend dp-desktop">
+                            <button className="btn dropdown-toggle dropdown-button" type="button" id="überblick"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 großer Überblick
                             </button>
-                            <div class="dropdown-menu dropdown-text" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">
+                            <div className="dropdown-menu dropdown-text" aria-labelledby="dropdownMenuButton">
+                                <a className="dropdown-item" href="#">
                                     Durch mein Studium als Wirtschaftsinformatiker habe ich einen breiten
                                     Überblick über IT-Themen bekommen
                                     und kann mich so in verschiedene Aufgaben und Bereiche hineinversetzen.

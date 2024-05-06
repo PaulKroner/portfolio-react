@@ -97,3 +97,18 @@ html, body {
     margin-left: 95px;
     padding: 10px;
 }
+
+/* Scrollbar */
+html::-webkit-scrollbar {
+    width: 20px;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+    border: none;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 40px;
+}  

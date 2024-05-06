@@ -1,5 +1,6 @@
 import './App.css';
 import Cv from "./components/cv/cv";
+import Projects from "./components/projects/projects";
 import Welcome from './components/welcome/welcome';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
   };
   return (
     <>
+      {/* Loader */}
       <div className="center" id="page-loader-center">
         <div className="loader" id="page-loader"></div>
       </div>
@@ -36,11 +38,13 @@ function App() {
 
           <div className="mid-container">
             <Welcome />
+            <div className="lower">
+              <Cv />
+              <Projects />
+            </div>
           </div>
 
-          <div className="lower">
-            <Cv />
-          </div>
+
 
         </div>
 

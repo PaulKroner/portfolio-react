@@ -1,6 +1,7 @@
 import './App.css';
 import Cv from "./components/cv/cv";
 import Projects from "./components/projects/projects";
+import Skills from "./components/skills/skills";
 import Welcome from './components/welcome/welcome';
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
             <div className="lower">
               <Cv />
               <Projects />
+              {/* <Skills /> */}
             </div>
           </div>
 

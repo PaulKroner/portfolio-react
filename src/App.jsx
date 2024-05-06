@@ -40,8 +40,9 @@ const App = () => {
             <NavigationBar />
           </div>
 
-          <div className="mid-container">
+          <div className="mid-container d-flex flex-column justify-content-center">
             <Welcome />
+
             <div className="lower">
               <Cv />
               <Projects />

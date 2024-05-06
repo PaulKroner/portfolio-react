@@ -3,7 +3,7 @@ import profil_picture from "../../assets/profil_picture.jpg";
 
 const Welcome = () => {
     return (
-        <div className="welcome d-flex flex-row">
+        <div className="d-flex flex-row welcome">
             <div className="top d-flex flex-row flex-wrap justify-content-center">
                 <div className="text-field">
                     <span className="large-heading">Hi, ich bin Paul!</span>

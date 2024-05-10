@@ -80,7 +80,7 @@ const App = () => {
             <div className="lower">
               <Cv />
               <Projects />
-              {/* <Skills /> */}
+              <Skills />
               <Questions />
               <Footer />
             </div>

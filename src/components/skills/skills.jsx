@@ -1,3 +1,5 @@
+import "./skills.css"
+
 const Skills = () => {
     return (
         <>
@@ -21,7 +23,7 @@ const Skills = () => {
                             <td className="text-center">HTML</td>
                             <td>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style="width: 75%"
+                                    <div className="progress-bar" role="progressbar" style={{ width: "75%" }}
                                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -32,7 +34,7 @@ const Skills = () => {
                             <td className="text-center">CSS</td>
                             <td>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style="width: 75%"
+                                    <div className="progress-bar" role="progressbar" style={{ width: "75%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -43,7 +45,7 @@ const Skills = () => {
                             <td className="text-center">Bootstrap</td>
                             <td>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style="width: 75%"
+                                    <div className="progress-bar" role="progressbar" style={{ width: "75%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -54,7 +56,7 @@ const Skills = () => {
                             <td className="text-center">JavaScript</td>
                             <td>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style="width: 65%"
+                                    <div className="progress-bar" role="progressbar" style={{ width: "65%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -65,7 +67,7 @@ const Skills = () => {
                             <td className="text-center">React</td>
                             <td>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style="width: 65%"
+                                    <div className="progress-bar" role="progressbar" style={{ width: "65%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -76,7 +78,7 @@ const Skills = () => {
                             <td className="text-center">VBA</td>
                             <td>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style="width: 40%"
+                                <div className="progress-bar" role="progressbar" style={{ width: "40%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -87,7 +89,7 @@ const Skills = () => {
                             <td className="text-center">Blue Prism</td>
                             <td>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style="width: 40%"
+                                <div className="progress-bar" role="progressbar" style={{ width: "40%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -98,7 +100,7 @@ const Skills = () => {
                             <td className="text-center">SQL</td>
                             <td>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style="width: 25%"
+                                <div className="progress-bar" role="progressbar" style={{ width: "25%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -109,7 +111,7 @@ const Skills = () => {
                             <td className="text-center">Angular</td>
                             <td>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style="width: 20%"
+                                <div className="progress-bar" role="progressbar" style={{ width: "25%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -120,7 +122,7 @@ const Skills = () => {
                             <td className="text-center">PHP</td>
                             <td>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style="width: 20%"
+                                <div className="progress-bar" role="progressbar" style={{ width: "20%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -128,9 +130,9 @@ const Skills = () => {
                             <td className="text-center">Grundlagen</td>
                         </tr>
 
-                </tbody>
-            </table>
-        </div >
+                    </tbody>
+                </table>
+            </div >
         </>
     );
 }

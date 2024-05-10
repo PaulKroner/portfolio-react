@@ -13,6 +13,8 @@
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
     padding: 15px;
     margin-top: 2rem;
+    -webkit-box-shadow: 5px 5px 26px 5px rgba(255,255,255,0.3);
+    box-shadow: 5px 5px 26px 5px rgba(255,255,255,0.3);
 }
 
 .cv-headline {

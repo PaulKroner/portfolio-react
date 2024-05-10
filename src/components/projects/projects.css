@@ -22,6 +22,8 @@
     width: 90%;
     background-color: var(--body-color);
     padding: 2rem;
+    -webkit-box-shadow: 5px 5px 26px 5px rgba(255,255,255,0.3);
+    box-shadow: 5px 5px 26px 5px rgba(255,255,255,0.3);
 }
 
 .project-wrapper:hover {

@@ -2,6 +2,9 @@
     font-size: var(--table-text);
     font-weight: 500;
     width: 90%;
+    border-radius: 40px;
+    -webkit-box-shadow: 5px 5px 26px 5px rgba(255,255,255,0.3);
+    box-shadow: 5px 5px 26px 5px rgba(255,255,255,0.3);
 }
 
 .skill-table th {
@@ -37,8 +40,12 @@
     border-style: none !important;
 }
 
+.skill-table tbody tr:last-child td:nth-child(2) {
+    border-style: none !important;
+}
+
 .progress {
-    height: 30px;
+    height: 30px !important;
 }
 
 /* mobile */

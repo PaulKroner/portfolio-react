@@ -11,9 +11,7 @@ const ProjectsComponent = ({ id, title, content, usedTech }) => {
             </div>
 
             <div className="project-description-wrapper">
-                <p className="project-description text-center">
-                    {content}
-                </p>
+            <p className="project-description text-center" dangerouslySetInnerHTML={{ __html: content }} />
             </div>
 
             <div

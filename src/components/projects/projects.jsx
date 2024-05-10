@@ -20,10 +20,10 @@ const Projects = () => {
             id: "live-voting-tool",
             title: "Live-Voting-Tool",
             content: `Im Rahmen des Mastermoduls "Software Engineering Project" 
-                    habe ich innerhalb einer Gruppenarbeit zusammen mit <a href="https://finatix.de/">Finatix</a> 
-                    ein Live-Voting-Tool erstellt. Ziel war es den Ablauf, Problemen und Lösungen eines Softwareprojekts 
-                    kennenzulernen. Der Techstack bestand aus React Typescript für das Frontend 
-                    und MariaDB sowie OpenAPI fürs Backend.`,
+            habe ich innerhalb einer Gruppenarbeit zusammen mit <a href="https://finatix.de/">Finatix</a> 
+            ein Live-Voting-Tool erstellt. Ziel war es den Ablauf, Problemen und Lösungen eines Softwareprojekts 
+            kennenzulernen. Der Techstack bestand aus React Typescript für das Frontend 
+            und MariaDB sowie OpenAPI fürs Backend.`,
             usedTech: ["React.js", "Bootstrap", "Typescript", "OpenAPI", "MariaDB", "Websockets"]
         },
         {
@@ -36,7 +36,7 @@ const Projects = () => {
         },
     ]
     return (
-        <>
+        <div>
             <div className="container-fluid projects-heading" id="projects">
                 <div>
                     <p>Projekte</p>
@@ -47,13 +47,14 @@ const Projects = () => {
 
                 {projects.map(project => (
                     <div className="project-wrapper d-flex flex-row" key={project.id}>
-                        <ProjectsComponent id={project.id} title={project.title} content={project.content} usedTech={project.usedTech}/>
+                        <ProjectsComponent id={project.id} title={project.title} content={project.content} usedTech={project.usedTech} />
                     </div>
 
                 ))}
 
             </div>
-        </>
+        </div>
+
     );
 }
 

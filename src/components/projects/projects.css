@@ -11,7 +11,7 @@
 }
 
 .projects {
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .project-wrapper {
@@ -21,6 +21,7 @@
     overflow: hidden;
     width: 90%;
     background-color: var(--body-color);
+    padding: 2rem;
 }
 
 .project-wrapper:hover {

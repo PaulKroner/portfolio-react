@@ -2,7 +2,7 @@ import "./skills.css"
 
 const Skills = () => {
     return (
-        <>
+        <div>
             <div className="container-fluid projects-heading" id="skills">
                 <div>
                     <p>Meine Fähigkeiten</p>
@@ -78,7 +78,7 @@ const Skills = () => {
                             <td className="text-center">VBA</td>
                             <td>
                                 <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: "40%" }}
+                                    <div className="progress-bar" role="progressbar" style={{ width: "40%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@ const Skills = () => {
                             <td className="text-center">Blue Prism</td>
                             <td>
                                 <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: "40%" }}
+                                    <div className="progress-bar" role="progressbar" style={{ width: "40%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -100,7 +100,7 @@ const Skills = () => {
                             <td className="text-center">SQL</td>
                             <td>
                                 <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: "25%" }}
+                                    <div className="progress-bar" role="progressbar" style={{ width: "25%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@ const Skills = () => {
                             <td className="text-center">Angular</td>
                             <td>
                                 <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: "25%" }}
+                                    <div className="progress-bar" role="progressbar" style={{ width: "25%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@ const Skills = () => {
                             <td className="text-center">PHP</td>
                             <td>
                                 <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: "20%" }}
+                                    <div className="progress-bar" role="progressbar" style={{ width: "20%" }}
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                     </div>
                                 </div>
@@ -133,7 +133,7 @@ const Skills = () => {
                     </tbody>
                 </table>
             </div >
-        </>
+        </div>
     );
 }
 

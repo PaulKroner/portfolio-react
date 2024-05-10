@@ -2,7 +2,7 @@ import "./questions.css";
 
 const Questions = () => {
     return (
-        <>
+        <div>
             <div className="container-fluid d-flex flex-column">
                 <p className="question-heading">Warum sollten Sie mich in Betracht ziehen?</p>
                 <div className="question-list">
@@ -74,7 +74,7 @@ const Questions = () => {
                     </ul>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 

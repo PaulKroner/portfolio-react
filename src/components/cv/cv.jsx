@@ -20,7 +20,7 @@ const Cv = () => {
     }
     window.addEventListener("scroll", reveal);
     return (
-        <>
+        <div>
             <div className="container-fluid row cv" id="cv">
 
                 <div className="cv-card reveal fade-left">
@@ -67,7 +67,7 @@ const Cv = () => {
                                 11.2021-04.2022
                             </li>
                             <div className="cvdiv">
-                                Praktikum - <a href="https://www.gisa.de/">GISA GmbH</a>
+                                Praktikum - <a href="https://www.gisa.de/">GISA GmbH</a> <br/>
                                 powercloud, VBA, Angular, PHP
                             </div>
                         </div>
@@ -77,14 +77,14 @@ const Cv = () => {
                                 05.2022-04.2023
                             </li>
                             <div className="cvdiv">
-                                Werkstudent - <a href="https://www.gisa.de/">GISA GmbH</a>
+                                Werkstudent - <a href="https://www.gisa.de/">GISA GmbH</a> <br/>
                                 PHP, Angular
                             </div>
                         </div>
                     </ol>
                 </div>
             </div>
-        </>
+        </div>
 
     );
 }

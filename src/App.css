@@ -112,3 +112,11 @@ html::-webkit-scrollbar-thumb {
     background: var(--primary-color);
     border-radius: 40px;
 }  
+
+.welcome-box {
+    margin-bottom: 15rem;
+}
+
+.lower {
+    gap: 10rem !important;
+}

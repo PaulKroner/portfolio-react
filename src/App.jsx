@@ -75,9 +75,12 @@ const App = () => {
           </div>
 
           <div className="mid-container d-flex flex-column justify-content-center">
-            <Welcome />
+            
+            <div className="welcome-box">
+              <Welcome />
+            </div>
 
-            <div className="lower">
+            <div className="lower d-flex flex-column">
               <Cv />
               <Projects />
               <Skills />

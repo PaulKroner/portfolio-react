@@ -8,7 +8,7 @@
     background-color: var(--cv-background);
     color: var(--text-color);
     height: auto;
-    max-width: 600px;
+    max-width: 38rem !important;
     border-radius: 40px;
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
     padding: 15px;

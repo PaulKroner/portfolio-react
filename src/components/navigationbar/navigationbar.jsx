@@ -1,11 +1,12 @@
 import "./navigationbar.css";
+import { useState } from "react";
 
 const NavigationBar = () => {
 
-    function burgerChange(x) {
-        // x.classNameList.toggle("change");
-        console.log("clicked")
-    }
+    // function burgerChange(x) {
+    //     x.classNameList.toggle("change");
+    //     console.log("clicked")
+    // }
 
     // const sidebar = document.querySelector('.sidebar'),
     //     toggle = document.querySelector('.burger');
@@ -14,12 +15,23 @@ const NavigationBar = () => {
     //     sidebar.classNameList.toggle("close");
     // })
 
+    const [isChange, setIsChange] = useState(false);
+    const [isSidebarClosed, setIsSidebarClosed] = useState(false);
+
+    const burgerChange = () => {
+        setIsChange(!isChange);
+    };
+
+    const handleToggleSidebar = () => {
+        setIsSidebarClosed(!isSidebarClosed);
+    };
+
     return (
-        <div className="sidebar close">
+        <div className={`sidebar ${isChange ? "" : "close"}`}>
             <div className="sidebar-top">
 
                 <div className="mobile-burger-bar">
-                    <div className="burger" onclick={burgerChange()}>
+                    <div className={`burger ${isChange ? "change" : ""}`} onClick={burgerChange}>
                         <div className="barbox">
                             <div className="bar1"></div>
                             <div className="bar2"></div>

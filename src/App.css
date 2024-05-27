@@ -50,11 +50,12 @@ td {
     --footer-text: 25px;
 }
 body {
-    background-color: var(--body-color);
+    background-color: var(--body-color) !important;
     transition: var(--tran-05);
     height: 100%;
     width: 100%;
     overflow-x: hidden; /* Hide horizontal scrollbar */
+    /* overflow: overlay; */
 }
 html, body {
     height: 100%;
@@ -64,7 +65,7 @@ html, body {
 }
 
 .main-container {
-    background-color: var(--body-color);
+    background-color: var(--body-color) !important;
     flex-wrap: nowrap;
 }
 
@@ -99,18 +100,24 @@ html, body {
 }
 
 /* Scrollbar */
-html::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 20px;
+    background: transparent !important;
 }
 
-html::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: transparent !important;
     border: none;
 }
 
-html::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: var(--primary-color);
     border-radius: 40px;
+}
+
+::-webkit-scrollbar-corner {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0) !important;
 }  
 
 .welcome-box {

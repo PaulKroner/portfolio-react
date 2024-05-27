@@ -3,18 +3,6 @@ import { useState } from "react";
 
 const NavigationBar = () => {
 
-    // function burgerChange(x) {
-    //     x.classNameList.toggle("change");
-    //     console.log("clicked")
-    // }
-
-    // const sidebar = document.querySelector('.sidebar'),
-    //     toggle = document.querySelector('.burger');
-
-    // toggle.addEventListener("click", () => {
-    //     sidebar.classNameList.toggle("close");
-    // })
-
     const [isChange, setIsChange] = useState(false);
     const [isSidebarClosed, setIsSidebarClosed] = useState(false);
 
@@ -43,7 +31,7 @@ const NavigationBar = () => {
                 <div className="hreflinks-top">
                     <div className="hreflinks-top-box">
                         <li className="hrefsymbols">
-                            <a href="#main-container">
+                            <a href="#">
                                 <i className='bx bx-home-alt icon'></i>
                                 <div className="text">Home</div>
                             </a>

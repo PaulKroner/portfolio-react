@@ -89,12 +89,12 @@
     }
 
     .cv-card {
-        max-width: 90%;
+        max-width: 90% !important;
         padding: 1rem;
     }
 
     .cv-headline {
-        font-size: 4rem !important;
+        font-size: 3.2rem !important;
         /* word-break: break-word; */
     }
 

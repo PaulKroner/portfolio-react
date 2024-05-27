@@ -104,7 +104,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: transparent;
+    background: transparent !important;
     border: none;
 }
 

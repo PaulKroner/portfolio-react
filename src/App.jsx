@@ -85,8 +85,9 @@ const App = () => {
               <Projects />
               <Skills />
               <Questions />
-              <Footer />
             </div>
+
+            <Footer />
           </div>
 
 

@@ -82,9 +82,9 @@ const App = () => {
 
             <div className="lower d-flex flex-column">
               <Cv />
-              <Projects />
+              {/* <Projects /> */}
               <Skills />
-              <Questions />
+              {/* <Questions /> */}
             </div>
 
             <Footer />

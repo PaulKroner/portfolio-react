@@ -83,7 +83,7 @@ html, body {
 }
 
 .middle-container {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     background-color: var(--body-color);
 }
@@ -126,4 +126,15 @@ html, body {
 
 .lower {
     gap: 10rem !important;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .mid-container {
+        margin-left: 0px;
+    }
+
+    .middle-container{
+        display: flex;
+    }
 }

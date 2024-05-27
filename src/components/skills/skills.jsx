@@ -1,6 +1,60 @@
 import "./skills.css"
 
 const Skills = () => {
+
+    const skills = [
+        {
+            skill: "HTML",
+            experience: "Fortgeschritten",
+            width: "75%",
+        },
+        {
+            skill: "CSS",
+            experience: "Fortgeschritten",
+            width: "75%",
+        },
+        {
+            skill: "Bootstrap",
+            experience: "Fortgeschritten",
+            width: "75%",
+        },
+        {
+            skill: "JavaScript",
+            experience: "Fortgeschritten",
+            width: "65%",
+        },
+        {
+            skill: "React",
+            experience: "Fortgeschritten",
+            width: "65%",
+        },
+        {
+            skill: "VBA",
+            experience: "erhöhte Kenntnisse",
+            width: "40%",
+        },
+        {
+            skill: "Blue Prism",
+            experience: "Grundlagen",
+            width: "40%",
+        },
+        {
+            skill: "SQL",
+            experience: "Grundlagen",
+            width: "25%",
+        },
+        {
+            skill: "Angular",
+            experience: "Grundlagen",
+            width: "25%",
+        },
+        {
+            skill: "PHP",
+            experience: "Grundlagen",
+            width: "20%",
+        }
+    ]
+
     return (
         <div>
             <div className="container-fluid projects-heading" id="skills">
@@ -19,116 +73,20 @@ const Skills = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td className="text-center">HTML</td>
-                            <td>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "75%" }}
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        
+                        {skills.map((skill, index) => (
+                            <tr key={index}>
+                                <td className="text-center">{skill.skill}</td>
+                                <td>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: skill.width }}
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                     </div>
-                                </div>
-                            </td>
-                            <td className="text-center">Fortgeschritten</td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">CSS</td>
-                            <td>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "75%" }}
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                </div>
-                            </td>
-                            <td className="text-center">Fortgeschritten</td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">Bootstrap</td>
-                            <td>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "75%" }}
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                </div>
-                            </td>
-                            <td className="text-center">Fortgeschritten</td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">JavaScript</td>
-                            <td>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "65%" }}
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                </div>
-                            </td>
-                            <td className="text-center">Fortgeschritten</td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">React</td>
-                            <td>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "65%" }}
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                </div>
-                            </td>
-                            <td className="text-center">Fortgeschritten</td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">VBA</td>
-                            <td>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "40%" }}
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                </div>
-                            </td>
-                            <td className="text-center">erhöhte Kenntnisse</td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">Blue Prism</td>
-                            <td>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "40%" }}
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                </div>
-                            </td>
-                            <td className="text-center">Grundlagen</td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">SQL</td>
-                            <td>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "25%" }}
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                </div>
-                            </td>
-                            <td className="text-center">Grundlagen</td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">Angular</td>
-                            <td>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "25%" }}
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                </div>
-                            </td>
-                            <td className="text-center">Grundlagen</td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">PHP</td>
-                            <td>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "20%" }}
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    </div>
-                                </div>
-                            </td>
-                            <td className="text-center">Grundlagen</td>
-                        </tr>
+                                </td>
+                                <td className="text-center">{skill.experience}</td>
+                            </tr>
+                        ))}
 
                     </tbody>
                 </table>

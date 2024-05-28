@@ -75,6 +75,7 @@
     font-size: var(--cv-headline);
     color: var(--primary-color);
     margin: 10px;
+    word-break: break-word;
 }
 
 .short-SB {

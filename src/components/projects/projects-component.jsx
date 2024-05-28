@@ -15,7 +15,7 @@ const ProjectsComponent = ({ id, title, content, usedTech }) => {
             </div>
 
             <div
-                className="used-tech-wrapper d-flex flex-row justify-content-center align-items-center">
+                className="used-tech-wrapper d-flex flex-row flex-wrap justify-content-center align-items-center">
                 {usedTech.map(tech => (
                     <div className="used-tech" key={tech}>
                         {tech}

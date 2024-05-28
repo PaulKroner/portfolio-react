@@ -1,4 +1,6 @@
 .top {
+    display: flex;
+    flex-direction: row;
     flex-basis: 100%;
     max-width: 100%;
 }

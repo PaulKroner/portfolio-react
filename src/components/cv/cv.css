@@ -1,16 +1,16 @@
 .cv {
     color: var(--text-color);
     justify-content: space-around;
-    gap: 10px;
+    gap: 2.5rem;
 }
 
 .cv-card {
     background-color: var(--cv-background);
     color: var(--text-color);
     height: auto;
-    max-width: 38rem !important;
+    width: 550px !important;
     border-radius: 40px;
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    /* box-shadow: 0 0 20px rgba(48, 46, 77, 0.15); */
     padding: 15px;
     margin-top: 2rem;
     -webkit-box-shadow: 5px 5px 26px 5px rgba(255,255,255,0.3);
@@ -31,11 +31,6 @@
 .cvList {
     list-style-type: circle;
     margin-top: 25px;
-    color: var(--text-color);
-}
-
-.cv {
-    margin-top: 10px;
     color: var(--text-color);
 }
 
@@ -89,12 +84,13 @@
     }
 
     .cv-card {
-        max-width: 90% !important;
+        max-width: 90%;
         padding: 1rem;
+        margin-left: 15px
     }
 
     .cv-headline {
-        font-size: 3.2rem !important;
+        font-size: 4rem !important;
         /* word-break: break-word; */
     }
 

@@ -20,10 +20,10 @@ const Cv = () => {
     }
     window.addEventListener("scroll", reveal);
     return (
-        <div>
+        <>
             <div className="container-fluid row cv" id="cv">
 
-                <div className="d-flex justify-content-center">
+                {/* <div className="d-flex justify-content-center"> */}
                     <div className="cv-card reveal fade-left">
                         <div className="cv-headline">
                             <p>Bildung</p>
@@ -56,12 +56,12 @@ const Cv = () => {
                             </div>
                         </ol>
                     </div>
-                </div>
+                {/* </div> */}
 
-                <div className="d-flex justify-content-center">
+                {/* <div className="d-flex justify-content-center"> */}
                     <div className="cv-card reveal fade-right">
                         <div className="container-fluid cv-headline">
-                            <p>Praktika und Werksstudentenarbeit</p>
+                            <p>Praktika und Werk<wbr />studenten<wbr/>arbeit</p>
                         </div>
 
                         <ol className="cv-text">
@@ -88,8 +88,8 @@ const Cv = () => {
                     </div>
                 </div>
 
-            </div>
-        </div>
+            {/* </div> */}
+        </>
     );
 }
 

@@ -63,7 +63,7 @@ const Skills = () => {
                 </div>
             </div>
 
-            <div className="container-fluid d-flex justify-content-center align-items-center">
+            <div className="container-fluid d-flex justify-content-center align-items-center p-5">
 
                 <table className="table table-striped table-dark table-responsive skill-table align-middle">
                     <thead>

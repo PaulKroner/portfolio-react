@@ -114,13 +114,13 @@
 
 @media only screen and (max-width: 1000px) {
     .project-wrapper {
-        max-width: 35rem;
+        max-width: 40rem;
     }
 }
 
 /* mobile */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .projects {
         gap: 6rem;
     }

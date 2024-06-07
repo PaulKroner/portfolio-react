@@ -11,21 +11,21 @@ import NavigationBar from "./components/navigationbar/navigationbar";
 const App = () => {
 
   // Loader Animation
-  // document.onreadystatechange = function () {
-  //   if (document.readyState !== "complete") {
-  //     document.querySelector(
-  //       "body").style.visibility = "hidden";
-  //     document.querySelector(
-  //       "#page-loader").style.visibility = "visible";
-  //   } else {
-  //     document.querySelector(
-  //       "#page-loader").style.display = "none";
-  //     document.querySelector(
-  //       "body").style.visibility = "visible";
-  //     document.querySelector(
-  //       "#page-loader-center").classList.remove("center");
-  //   }
-  // };
+  document.onreadystatechange = function () {
+    if (document.readyState !== "complete") {
+      document.querySelector(
+        "body").style.visibility = "hidden";
+      document.querySelector(
+        "#page-loader").style.visibility = "visible";
+    } else {
+      document.querySelector(
+        "#page-loader").style.display = "none";
+      document.querySelector(
+        "body").style.visibility = "visible";
+      document.querySelector(
+        "#page-loader-center").classList.remove("center");
+    }
+  };
 
   const [loading, setLoading] = useState(true);
 

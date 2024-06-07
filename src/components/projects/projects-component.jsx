@@ -3,19 +3,7 @@ import "./projects.css";
 const ProjectsComponent = ({ id, title, content, usedTech, moreToShow }) => {
 
     const path = () => {
-            // Load the CSS file
-            const link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.href = '../../Websites/little-lemon-restaurant/build/static/css/main.95ba7c92.css';
-            document.head.appendChild(link);
-        
-            // Load the JS file
-            const script = document.createElement('script');
-            script.src = '../../Websites/little-lemon-restaurant/build/static/js/main.9d0e1c65.js';
-            script.onload = () => {
-              console.log('Project 2 loaded');
-            };
-            document.body.appendChild(script);      
+        window.location.href = "";
     }
 
     return (

@@ -3,7 +3,7 @@ import "./projects.css";
 const ProjectsComponent = ({ id, title, content, usedTech, moreToShow }) => {
 
     const path = () => {
-        window.location.href = "";
+        window.location.href = "https://paulkroner.github.io/little-lemon-restaurant/";
     }
 
     return (

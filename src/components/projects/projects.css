@@ -72,7 +72,7 @@
 }
 
 .project-wrapper .project-description-heading {
-    font-size: var(--cv-headline);
+    font-size: 3.5rem;
     color: var(--primary-color);
     margin: 10px;
     word-break: break-word;
@@ -155,7 +155,7 @@
     }
 
     .project-description-heading {
-        font-size: 6rem !important;
+        font-size: 5rem !important;
         font-weight: 700 !important;
         text-align: center !important;
     }

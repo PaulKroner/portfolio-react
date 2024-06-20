@@ -8,13 +8,13 @@
     background-color: var(--cv-background);
     color: var(--text-color);
     height: auto;
-    width: 550px !important;
+    width: 55rem !important;
     border-radius: 40px;
     /* box-shadow: 0 0 20px rgba(48, 46, 77, 0.15); */
-    padding: 15px;
+    padding: 2rem;
     margin-top: 2rem;
-    -webkit-box-shadow: 5px 5px 26px 5px rgba(255,255,255,0.3);
-    box-shadow: 5px 5px 26px 5px rgba(255,255,255,0.3);
+    -webkit-box-shadow: 5px 5px 26px 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 5px 26px 5px rgba(255, 255, 255, 0.3);
 }
 
 .cv-headline {
@@ -24,7 +24,7 @@
 }
 
 .cv-text {
-    font-size: var(--normal-text);
+    font-size: 2.5rem;
     white-space: wrap;
 }
 
@@ -32,6 +32,18 @@
     list-style-type: circle;
     margin-top: 25px;
     color: var(--text-color);
+    font-size: 2.5rem;
+}
+
+.cv-list-lower::marker {
+    --hue: 200;
+    font-size: 2rem;
+    content: ">";
+}
+
+.cv-list-lower {
+    padding-inline-start: var(--normal-text);
+    font-size: 1.5rem;
 }
 
 /* Faded animation */
@@ -91,7 +103,7 @@
 
     .cv-card {
         max-width: 90%;
-        padding: 1rem;
+        padding: 2rem;
         margin-left: 15px
     }
 
